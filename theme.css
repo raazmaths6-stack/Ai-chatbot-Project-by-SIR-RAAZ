@@ -1,0 +1,108 @@
+/* Theme Variables */
+:root {
+    /* Default Theme (Blue) */
+    --primary-color: #5350C4;
+    --primary-dark: #3d39ac;
+    --secondary-color: #006989;
+    --secondary-dark: #03045e;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --text-light: #666666;
+    --border-color: #e0e0e0;
+    --message-user-bg: #5350C4;
+    --message-bot-bg: #F2F2FF;
+    --header-gradient: linear-gradient(190deg, #006989, #03045e);
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --info-bg: #f0f7ff;
+    --success-color: #4CAF50;
+    --error-color: #ff0000;
+    --warning-color: #ff9800;
+}
+
+/* Dark Theme */
+body.theme-dark {
+    --primary-color: #7289da;
+    --primary-dark: #e0e0e0;
+    --secondary-color: #2c2f33;
+    --secondary-dark: #23272a;
+    --bg-color: #ffffff;
+    --text-color: #ffffff;
+    --text-light: #b9bbbe;
+    --border-color: #40444b;
+    --message-user-bg: #7289da;
+    --message-bot-bg: #ffffff;
+    --header-gradient: linear-gradient(190deg, #2c2f33, #23272a);
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --info-bg: #2f3136;
+    --success-color: #4CAF50;
+    --error-color: #ff6b6b;
+    --warning-color: #ff9800;
+}
+
+/* Green Theme */
+body.theme-green {
+    --primary-color: #4CAF50;
+    --primary-dark: #388E3C;
+    --secondary-color: #2E7D32;
+    --secondary-dark: #1B5E20;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --text-light: #666666;
+    --border-color: #e0e0e0;
+    --message-user-bg: #4CAF50;
+    --message-bot-bg: #E8F5E9;
+    --header-gradient: linear-gradient(190deg, #2E7D32, #1B5E20);
+    --shadow-color: rgba(76, 175, 80, 0.1);
+    --info-bg: #f1f8e9;
+}
+
+/* Red Theme */
+body.theme-red {
+    --primary-color: #f44336;
+    --primary-dark: #d32f2f;
+    --secondary-color: #c62828;
+    --secondary-dark: #b71c1c;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --text-light: #666666;
+    --border-color: #e0e0e0;
+    --message-user-bg: #f44336;
+    --message-bot-bg: #ffebee;
+    --header-gradient: linear-gradient(190deg, #c62828, #b71c1c);
+    --shadow-color: rgba(244, 67, 54, 0.1);
+    --info-bg: #ffebee;
+}
+
+/* Purple Theme */
+body.theme-purple {
+    --primary-color: #9C27B0;
+    --primary-dark: #7B1FA2;
+    --secondary-color: #6A1B9A;
+    --secondary-dark: #4A148C;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --text-light: #666666;
+    --border-color: #e0e0e0;
+    --message-user-bg: #9C27B0;
+    --message-bot-bg: #f3e5f5;
+    --header-gradient: linear-gradient(190deg, #6A1B9A, #4A148C);
+    --shadow-color: rgba(156, 39, 176, 0.1);
+    --info-bg: #f3e5f5;
+}
+
+/* Blue Theme */
+body.theme-blue {
+    --primary-color: #2196F3;
+    --primary-dark: #1976D2;
+    --secondary-color: #0D47A1;
+    --secondary-dark: #0a337a;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --text-light: #666666;
+    --border-color: #e0e0e0;
+    --message-user-bg: #2196F3;
+    --message-bot-bg: #e3f2fd;
+    --header-gradient: linear-gradient(190deg, #0D47A1, #0a337a);
+    --shadow-color: rgba(33, 150, 243, 0.1);
+    --info-bg: #e3f2fd;
+}
